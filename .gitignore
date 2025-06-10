@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories
+data/EuroSAT/
+logs/
+outputs/model/
+
+# Streamlit cache
+.streamlit/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+.DS_Store
