@@ -6,6 +6,13 @@ from torchvision import models
 from src.model.dataloader import get_dataloaders
 from src.utils.logger import logger
 
+def set_backbone_requires_grad(model, requires_grad: bool):
+    """
+    Set requires_grad for all parameters in the model's backbone.
+    """
+    for param in model.features.parameters():
+        param.requires_grad = requires_grad
+
 def train_model(
         processed_dir,
         output_dir,
@@ -17,6 +24,7 @@ def train_model(
         learning_rate=0.001,
         device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ):
+    FREEZE_EPOCHS = num_epochs // 2
     os.makedirs(output_dir, exist_ok=True)
     logger.info(f"Training on device: {device}")
 
@@ -33,13 +41,25 @@ def train_model(
     model.classifier[1] = nn.Linear(model.last_channel, num_classes)
     model = model.to(device)
 
+    # Freeze backbone parameters
+    set_backbone_requires_grad(model, requires_grad=False)
+
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+    optimizer = optim.Adam(
+        filter(lambda p: p.requires_grad, model.parameters()),
+        lr=learning_rate
+    )
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
     best_accuracy = 0.0
 
     for epoch in range(1, num_epochs+1):
+        # Unfreeze backbone parameters after FREEZE_EPOCHS
+        if epoch > FREEZE_EPOCHS:
+            set_backbone_requires_grad(model, requires_grad=True)
+            logger.info(f"Unfreezing backbone parameters at epoch {epoch}")
+            optimizer = optim.Adam(model.parameters(), lr=learning_rate/10)
+            scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
         model.train()
         running_loss = 0.0
         running_corrects = 0
