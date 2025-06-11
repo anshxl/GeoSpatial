@@ -3,9 +3,9 @@ import shutil
 from sklearn.model_selection import train_test_split
 
 # Paths
-ORIG_PATH = os.abspath(os.path.join(os.path.dirname(__file__), '../../data/EuroSAT'))
-RAW_DIR = os.abspath(os.path.join(os.path.dirname(__file__), '../../data/raw'))
-TEST_DIR = os.abspath(os.path.join(os.path.dirname(__file__), '../../data/test'))
+ORIG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/EuroSAT'))
+RAW_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/raw'))
+TEST_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data/test'))
 
 def split_and_copy(orig_dir=ORIG_PATH, raw_path=RAW_DIR, test_path=TEST_DIR, test_size=0.1, random_seed=42):
     filepaths = []
