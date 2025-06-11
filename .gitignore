@@ -11,7 +11,7 @@ venv/
 .ipynb_checkpoints/
 
 # Data directories
-data/EuroSAT/
+# data/EuroSAT
 logs/
 outputs/model/
 
