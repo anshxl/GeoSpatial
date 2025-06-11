@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=geo-ml-train
+#SBATCH --ntasks=5
+#SBATCH --gpus=v100:1
+#SBATCH --mem=32Gb
+#SBATCH --time=04:00:00
+#SBATCH --output=logs/train-%j.out
+#SBATCH --error=logs/train-%j.err
+
+# Load modules
+module purge
+module load Miniforge3
+
+# Activate env
+conda activate geo-ml
+
+# Launch training
+python src/model/train.py \
+  --processed_dir data/processed \
+  --outputs_dir outputs/model \
+  --num_classes 10 \
+  --batch_size 64 \
+  --num_workers 8 \
+  --num_epochs 20 \
+  --lr 1e-3
