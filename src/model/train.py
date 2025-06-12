@@ -56,7 +56,7 @@ def train_model(
 
     for epoch in range(1, num_epochs+1):
         # Unfreeze backbone parameters after FREEZE_EPOCHS
-        if epoch > FREEZE_EPOCHS:
+        if epoch == FREEZE_EPOCHS + 1:
             set_backbone_requires_grad(model, requires_grad=True)
             logger.info(f"Unfreezing backbone parameters at epoch {epoch}")
             optimizer = optim.Adam(model.parameters(), lr=learning_rate/10)

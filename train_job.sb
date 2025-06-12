@@ -2,8 +2,8 @@
 #SBATCH --job-name=geo-ml-train
 #SBATCH --ntasks=5
 #SBATCH --gpus=v100:1
-#SBATCH --mem=32Gb
-#SBATCH --time=04:00:00
+#SBATCH --mem=10Gb
+#SBATCH --time=01:00:00
 #SBATCH --output=logs/train-%j.out
 #SBATCH --error=logs/train-%j.err
 
@@ -21,9 +21,9 @@ conda activate geo-ml
 # Launch training
 python -m src.model.train \
   --processed_dir data/processed \
-  --output_dir outputs/modesl \
+  --output_dir outputs/models \
   --num_classes 10 \
   --batch_size 64 \
   --num_workers 4 \
-  --num_epochs 20 \
+  --num_epochs 40 \
   --lr 1e-3
