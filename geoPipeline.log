@@ -1,0 +1,102 @@
+2025-06-12 02:20:28 - geoPipeline - INFO - Training on device: cuda
+2025-06-12 02:20:35 - geoPipeline - INFO - Epoch [1/40], Loss: 1.0004, Accuracy: 0.7057
+2025-06-12 02:20:35 - geoPipeline - INFO - Validation Loss: 0.6817, Validation Accuracy: 0.8136
+2025-06-12 02:20:35 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:20:40 - geoPipeline - INFO - Epoch [2/40], Loss: 0.7212, Accuracy: 0.7717
+2025-06-12 02:20:40 - geoPipeline - INFO - Validation Loss: 0.6122, Validation Accuracy: 0.8272
+2025-06-12 02:20:40 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:20:45 - geoPipeline - INFO - Epoch [3/40], Loss: 0.6807, Accuracy: 0.7839
+2025-06-12 02:20:46 - geoPipeline - INFO - Validation Loss: 0.5814, Validation Accuracy: 0.8309
+2025-06-12 02:20:46 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:20:50 - geoPipeline - INFO - Epoch [4/40], Loss: 0.6694, Accuracy: 0.7842
+2025-06-12 02:20:51 - geoPipeline - INFO - Validation Loss: 0.5844, Validation Accuracy: 0.8313
+2025-06-12 02:20:51 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:20:55 - geoPipeline - INFO - Epoch [5/40], Loss: 0.6682, Accuracy: 0.7855
+2025-06-12 02:20:56 - geoPipeline - INFO - Validation Loss: 0.5706, Validation Accuracy: 0.8374
+2025-06-12 02:20:56 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:00 - geoPipeline - INFO - Epoch [6/40], Loss: 0.6430, Accuracy: 0.7935
+2025-06-12 02:21:01 - geoPipeline - INFO - Validation Loss: 0.5565, Validation Accuracy: 0.8395
+2025-06-12 02:21:01 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:06 - geoPipeline - INFO - Epoch [7/40], Loss: 0.6391, Accuracy: 0.7956
+2025-06-12 02:21:06 - geoPipeline - INFO - Validation Loss: 0.5439, Validation Accuracy: 0.8399
+2025-06-12 02:21:06 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:11 - geoPipeline - INFO - Epoch [8/40], Loss: 0.6277, Accuracy: 0.7948
+2025-06-12 02:21:11 - geoPipeline - INFO - Validation Loss: 0.5353, Validation Accuracy: 0.8407
+2025-06-12 02:21:11 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:16 - geoPipeline - INFO - Epoch [9/40], Loss: 0.6351, Accuracy: 0.7947
+2025-06-12 02:21:16 - geoPipeline - INFO - Validation Loss: 0.5433, Validation Accuracy: 0.8424
+2025-06-12 02:21:16 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:21 - geoPipeline - INFO - Epoch [10/40], Loss: 0.6285, Accuracy: 0.7959
+2025-06-12 02:21:22 - geoPipeline - INFO - Validation Loss: 0.5463, Validation Accuracy: 0.8432
+2025-06-12 02:21:22 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:26 - geoPipeline - INFO - Epoch [11/40], Loss: 0.6335, Accuracy: 0.7942
+2025-06-12 02:21:27 - geoPipeline - INFO - Validation Loss: 0.5509, Validation Accuracy: 0.8416
+2025-06-12 02:21:31 - geoPipeline - INFO - Epoch [12/40], Loss: 0.6335, Accuracy: 0.7958
+2025-06-12 02:21:32 - geoPipeline - INFO - Validation Loss: 0.5303, Validation Accuracy: 0.8440
+2025-06-12 02:21:32 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:36 - geoPipeline - INFO - Epoch [13/40], Loss: 0.6471, Accuracy: 0.7923
+2025-06-12 02:21:37 - geoPipeline - INFO - Validation Loss: 0.5424, Validation Accuracy: 0.8453
+2025-06-12 02:21:37 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:21:42 - geoPipeline - INFO - Epoch [14/40], Loss: 0.6300, Accuracy: 0.7947
+2025-06-12 02:21:42 - geoPipeline - INFO - Validation Loss: 0.5374, Validation Accuracy: 0.8387
+2025-06-12 02:21:47 - geoPipeline - INFO - Epoch [15/40], Loss: 0.6325, Accuracy: 0.7936
+2025-06-12 02:21:47 - geoPipeline - INFO - Validation Loss: 0.5534, Validation Accuracy: 0.8416
+2025-06-12 02:21:52 - geoPipeline - INFO - Epoch [16/40], Loss: 0.6378, Accuracy: 0.7940
+2025-06-12 02:21:52 - geoPipeline - INFO - Validation Loss: 0.5449, Validation Accuracy: 0.8387
+2025-06-12 02:21:57 - geoPipeline - INFO - Epoch [17/40], Loss: 0.6260, Accuracy: 0.7981
+2025-06-12 02:21:57 - geoPipeline - INFO - Validation Loss: 0.5455, Validation Accuracy: 0.8395
+2025-06-12 02:22:02 - geoPipeline - INFO - Epoch [18/40], Loss: 0.6351, Accuracy: 0.7931
+2025-06-12 02:22:02 - geoPipeline - INFO - Validation Loss: 0.5401, Validation Accuracy: 0.8403
+2025-06-12 02:22:07 - geoPipeline - INFO - Epoch [19/40], Loss: 0.6407, Accuracy: 0.7905
+2025-06-12 02:22:07 - geoPipeline - INFO - Validation Loss: 0.5618, Validation Accuracy: 0.8354
+2025-06-12 02:22:12 - geoPipeline - INFO - Epoch [20/40], Loss: 0.6386, Accuracy: 0.7887
+2025-06-12 02:22:12 - geoPipeline - INFO - Validation Loss: 0.5412, Validation Accuracy: 0.8420
+2025-06-12 02:22:12 - geoPipeline - INFO - Unfreezing backbone parameters at epoch 21
+2025-06-12 02:22:19 - geoPipeline - INFO - Epoch [21/40], Loss: 0.4073, Accuracy: 0.8664
+2025-06-12 02:22:20 - geoPipeline - INFO - Validation Loss: 0.2191, Validation Accuracy: 0.9284
+2025-06-12 02:22:20 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:22:27 - geoPipeline - INFO - Epoch [22/40], Loss: 0.2603, Accuracy: 0.9113
+2025-06-12 02:22:27 - geoPipeline - INFO - Validation Loss: 0.1589, Validation Accuracy: 0.9469
+2025-06-12 02:22:27 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:22:34 - geoPipeline - INFO - Epoch [23/40], Loss: 0.2009, Accuracy: 0.9287
+2025-06-12 02:22:35 - geoPipeline - INFO - Validation Loss: 0.1435, Validation Accuracy: 0.9498
+2025-06-12 02:22:35 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:22:41 - geoPipeline - INFO - Epoch [24/40], Loss: 0.1748, Accuracy: 0.9424
+2025-06-12 02:22:42 - geoPipeline - INFO - Validation Loss: 0.1334, Validation Accuracy: 0.9576
+2025-06-12 02:22:42 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:22:48 - geoPipeline - INFO - Epoch [25/40], Loss: 0.1436, Accuracy: 0.9509
+2025-06-12 02:22:49 - geoPipeline - INFO - Validation Loss: 0.1129, Validation Accuracy: 0.9654
+2025-06-12 02:22:49 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:22:56 - geoPipeline - INFO - Epoch [26/40], Loss: 0.1260, Accuracy: 0.9560
+2025-06-12 02:22:56 - geoPipeline - INFO - Validation Loss: 0.1040, Validation Accuracy: 0.9650
+2025-06-12 02:23:03 - geoPipeline - INFO - Epoch [27/40], Loss: 0.1198, Accuracy: 0.9582
+2025-06-12 02:23:03 - geoPipeline - INFO - Validation Loss: 0.1075, Validation Accuracy: 0.9663
+2025-06-12 02:23:04 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:23:10 - geoPipeline - INFO - Epoch [28/40], Loss: 0.1179, Accuracy: 0.9590
+2025-06-12 02:23:11 - geoPipeline - INFO - Validation Loss: 0.1031, Validation Accuracy: 0.9675
+2025-06-12 02:23:11 - geoPipeline - INFO - New best model saved: outputs/models/best_model.pt
+2025-06-12 02:23:17 - geoPipeline - INFO - Epoch [29/40], Loss: 0.1081, Accuracy: 0.9628
+2025-06-12 02:23:18 - geoPipeline - INFO - Validation Loss: 0.0990, Validation Accuracy: 0.9663
+2025-06-12 02:23:25 - geoPipeline - INFO - Epoch [30/40], Loss: 0.1093, Accuracy: 0.9622
+2025-06-12 02:23:25 - geoPipeline - INFO - Validation Loss: 0.1005, Validation Accuracy: 0.9650
+2025-06-12 02:23:32 - geoPipeline - INFO - Epoch [31/40], Loss: 0.1088, Accuracy: 0.9625
+2025-06-12 02:23:32 - geoPipeline - INFO - Validation Loss: 0.1017, Validation Accuracy: 0.9658
+2025-06-12 02:23:39 - geoPipeline - INFO - Epoch [32/40], Loss: 0.1069, Accuracy: 0.9636
+2025-06-12 02:23:39 - geoPipeline - INFO - Validation Loss: 0.1009, Validation Accuracy: 0.9626
+2025-06-12 02:23:46 - geoPipeline - INFO - Epoch [33/40], Loss: 0.1062, Accuracy: 0.9642
+2025-06-12 02:23:47 - geoPipeline - INFO - Validation Loss: 0.1020, Validation Accuracy: 0.9671
+2025-06-12 02:23:53 - geoPipeline - INFO - Epoch [34/40], Loss: 0.1030, Accuracy: 0.9647
+2025-06-12 02:23:54 - geoPipeline - INFO - Validation Loss: 0.0980, Validation Accuracy: 0.9667
+2025-06-12 02:24:00 - geoPipeline - INFO - Epoch [35/40], Loss: 0.1036, Accuracy: 0.9646
+2025-06-12 02:24:01 - geoPipeline - INFO - Validation Loss: 0.1026, Validation Accuracy: 0.9626
+2025-06-12 02:24:07 - geoPipeline - INFO - Epoch [36/40], Loss: 0.1003, Accuracy: 0.9649
+2025-06-12 02:24:08 - geoPipeline - INFO - Validation Loss: 0.0997, Validation Accuracy: 0.9658
+2025-06-12 02:24:14 - geoPipeline - INFO - Epoch [37/40], Loss: 0.1042, Accuracy: 0.9638
+2025-06-12 02:24:15 - geoPipeline - INFO - Validation Loss: 0.1013, Validation Accuracy: 0.9646
+2025-06-12 02:24:22 - geoPipeline - INFO - Epoch [38/40], Loss: 0.1070, Accuracy: 0.9638
+2025-06-12 02:24:22 - geoPipeline - INFO - Validation Loss: 0.0985, Validation Accuracy: 0.9671
+2025-06-12 02:24:29 - geoPipeline - INFO - Epoch [39/40], Loss: 0.0994, Accuracy: 0.9650
+2025-06-12 02:24:29 - geoPipeline - INFO - Validation Loss: 0.0979, Validation Accuracy: 0.9671
+2025-06-12 02:24:36 - geoPipeline - INFO - Epoch [40/40], Loss: 0.1043, Accuracy: 0.9626
+2025-06-12 02:24:37 - geoPipeline - INFO - Validation Loss: 0.0986, Validation Accuracy: 0.9663
+2025-06-12 02:24:37 - geoPipeline - INFO - Training complete. Best validation accuracy: 0.9675
