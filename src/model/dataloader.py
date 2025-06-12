@@ -53,11 +53,14 @@ def get_dataloaders(processed_dir, batch_size=32, val_split=0.1, num_workers=4):
         indices, test_size=val_split, stratify=labels, random_state=42
     )
 
+    train_base = EuroSATDataset(processed_dir, transform=train_transform)
+    val_base = EuroSATDataset(processed_dir, transform=val_transform)
+
     # Create subsets
-    train_subset = Subset(full_dataset, train_idx)
-    train_subset.dataset.transform = train_transform
-    val_subset = Subset(full_dataset, val_idx)
-    val_subset.dataset.transform = val_transform
+    train_subset = Subset(train_base, train_idx)
+    # train_subset.dataset.transform = train_transform
+    val_subset = Subset(val_base, val_idx)
+    # val_subset.dataset.transform = val_transform
 
     # Check if subsets have correct transforms
     assert train_subset.dataset.transform == train_transform, "Train subset transform mismatch"

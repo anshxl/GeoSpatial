@@ -41,3 +41,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     preprocess_directory(args.raw_dir, args.processed_dir, size=tuple(args.size))
+    
