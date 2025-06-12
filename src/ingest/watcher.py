@@ -1,9 +1,32 @@
 import os
 import time
+import csv
+import json
 import shutil
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+import torch
+from torchvision import transforms as T
 from src.utils.logger import logger
+from src.ingest.infer import get_class_names, build_model, infer_single_image
+
+# Define constants
+CLASS_NAMES = get_class_names(os.path.join(os.path.dirname(__file__), "../../data/class_names.json"))
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+MODEL = build_model(len(CLASS_NAMES),
+                    os.path.join(os.path.dirname(__file__), "../../outputs/models/best_model.pt"),
+                    DEVICE)
+TRANS = T.Compose([
+    T.Resize((64, 64)),
+    T.ToTensor(),
+    T.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+CSV_PATH = "outputs/streaming_predictions.csv"
+# ensure CSV exists with header
+if not os.path.exists(CSV_PATH):
+    with open(CSV_PATH, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["filepath","pred_label","confidence"])
 
 # Configure path relative to project root
 RAW_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw"))
@@ -20,8 +43,19 @@ class NewFileHandler(FileSystemEventHandler):
             try:
                 shutil.move(src_path, dest_path)
                 logger.info(f"Moved {filename} to processed directory.")
+
+                # Perform inference
+                pred, conf = infer_single_image(dest_path, MODEL, TRANS, CLASS_NAMES, DEVICE)
+                with open(CSV_PATH, "a", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow([dest_path, pred, f"{conf.item():.4f}"])
+                
+                logger.info(
+                    f"Inferred {filename} → {pred} (conf={conf:.2f})"
+                )
             except Exception as e:
-                logger.error(f"Error moving {filename}: {e}")
+                logger.error(f"Error processing {filename}: {e}")
+        
             
 def main():
     # Ensure directories exist

@@ -2,6 +2,7 @@ import os
 import csv
 import json
 import argparse
+from typing import List, Tuple
 
 import torch
 import torch.nn as nn
@@ -26,6 +27,17 @@ def build_model(num_classes, model_path, device):
     model = model.to(device).eval()
     return model
 
+def infer_single_image(fpath: str, model: torch.nn.Module, transform: T.Compose, class_names: List[str],
+                       device: torch.device) -> Tuple[str, float]:
+    img = Image.open(fpath).convert('RGB')
+    inp = transform(img).unsqueeze(0).to(device)
+
+    with torch.no_grad():
+        output = model(inp)
+        probs = nn.functional.softmax(output, dim=1)
+        conf, pred = probs.max(dim=1)
+    return class_names[pred.item()], float(conf.item())
+    
 def infer(args):
     logger.info("Starting inference...")
     device = (
@@ -45,6 +57,7 @@ def infer(args):
 
     # Define image transformations
     transform = T.Compose([
+        T.Resize((64, 64)),
         T.ToTensor(),
         T.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
@@ -67,14 +80,9 @@ def infer(args):
                     continue
                 fpath = os.path.join(cls_dir, filename)
                 try:
-                    img = Image.open(fpath).convert('RGB')
-                    inp = transform(img).unsqueeze(0).to(device)
-
-                    with torch.no_grad():
-                        output = model(inp)
-                        probs = nn.functional.softmax(output, dim=1)
-                        conf, pred = probs.max(dim=1)
-
+                    pred, conf = infer_single_image(
+                        fpath, model, transform, class_names, device
+                    )
                     writer.writerow([
                         fpath,
                         true_label,
