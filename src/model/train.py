@@ -57,7 +57,7 @@ def train_model(
     best_accuracy = 0.0
 
     train_losses, val_losses = [], []
-    train_acc, val_acc = [], []
+    train_accs, val_accs = [], []
     for epoch in range(1, num_epochs+1):
         # Unfreeze backbone parameters after FREEZE_EPOCHS
         if epoch == FREEZE_EPOCHS + 1:
@@ -85,7 +85,7 @@ def train_model(
         epoch_loss = running_loss / total
         epoch_acc = running_corrects / total
         train_losses.append(epoch_loss)
-        train_acc.append(epoch_acc)
+        train_accs.append(epoch_acc)
         logger.info(f"Epoch [{epoch}/{num_epochs}], Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}")
 
         # Validation phase
@@ -106,7 +106,7 @@ def train_model(
         val_loss /= val_total
         val_acc = val_corrects / val_total
         val_losses.append(val_loss)
-        val_acc.append(val_acc)
+        val_accs.append(val_acc)
         logger.info(f"Validation Loss: {val_loss:.4f}, Validation Accuracy: {val_acc:.4f}")
 
         # Save the model if it has the best accuracy so far
@@ -118,10 +118,6 @@ def train_model(
         
         scheduler.step()
     logger.info(f"Training complete. Best validation accuracy: {best_accuracy:.4f}")
-
-    # Dump class names
-    class_names = train_loader.dataset.classes
-    json.dump(class_names, open(os.path.join(output_dir, "class_names.json"), "w"))
 
     # Plot training and validation losses
     fig_dir = os.path.join(output_dir, "figures")
@@ -137,8 +133,8 @@ def train_model(
 
     # 2b) Accuracy curve
     plt.figure()
-    plt.plot(range(1, num_epochs+1), train_acc, label="Train Acc")
-    plt.plot(range(1, num_epochs+1), val_acc,   label="Val Acc")
+    plt.plot(range(1, num_epochs+1), train_accs, label="Train Acc")
+    plt.plot(range(1, num_epochs+1), val_accs,   label="Val Acc")
     plt.xlabel("Epoch"); plt.ylabel("Accuracy")
     plt.legend(); plt.title("Training & Validation Accuracy")
     plt.savefig(os.path.join(fig_dir, "acc_curve.png"))
@@ -168,3 +164,14 @@ if __name__ == "__main__":
         num_epochs=args.num_epochs,
         learning_rate=args.lr
     )
+    # Get class names and save to JSON
+    class_names = sorted(
+        d for d in os.listdir(args.processed_dir)
+        if os.path.isdir(os.path.join(args.processed_dir, d))
+    )
+
+    os.makedirs(args.output_dir, exist_ok=True)
+    with open(os.path.join(args.output_dir, "class_names.json"), 'w') as f:
+        json.dump(class_names, f)
+    
+    logger.info(f"Class names saved to {os.path.join(args.output_dir, 'class_names.json')}")

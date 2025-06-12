@@ -2,8 +2,8 @@
 #SBATCH --job-name=geo-ml-train
 #SBATCH --ntasks=5
 #SBATCH --gpus=v100:1
-#SBATCH --mem=10Gb
-#SBATCH --time=01:00:00
+#SBATCH --mem=5Gb
+#SBATCH --time=00:30:00
 #SBATCH --output=logs/train-%j.out
 #SBATCH --error=logs/train-%j.err
 
@@ -25,5 +25,5 @@ python -m src.model.train \
   --num_classes 10 \
   --batch_size 64 \
   --num_workers 4 \
-  --num_epochs 40 \
+  --num_epochs 30 \
   --lr 1e-3
