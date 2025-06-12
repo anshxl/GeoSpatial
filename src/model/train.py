@@ -1,4 +1,5 @@
 import os
+import json
 import matplotlib.pyplot as plt # type: ignore
 import torch
 import torch.nn as nn
@@ -117,6 +118,10 @@ def train_model(
         
         scheduler.step()
     logger.info(f"Training complete. Best validation accuracy: {best_accuracy:.4f}")
+
+    # Dump class names
+    class_names = train_loader.dataset.classes
+    json.dump(class_names, open(os.path.join(output_dir, "class_names.json"), "w"))
 
     # Plot training and validation losses
     fig_dir = os.path.join(output_dir, "figures")
