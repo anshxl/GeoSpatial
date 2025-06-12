@@ -2,7 +2,7 @@ import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torchvision import models
+from torchvision.models import mobilenet_v2, MobileNet_V2_Weights
 from src.model.dataloader import get_dataloaders
 from src.utils.logger import logger
 
@@ -37,7 +37,8 @@ def train_model(
     )
     
     # Initialize model
-    model = models.mobilenet_v2(pretrained=True)
+    weights = MobileNet_V2_Weights.DEFAULT
+    model = mobilenet_v2(weights=weights)
     model.classifier[1] = nn.Linear(model.last_channel, num_classes)
     model = model.to(device)
 
