@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash --login
 #SBATCH --job-name=geo-ml-train
 #SBATCH --ntasks=5
 #SBATCH --gpus=v100:1
@@ -14,10 +14,13 @@ module load Miniforge3
 # Activate env
 conda activate geo-ml
 
+# Navigate to working directory
+#cd GeoSpatial
+
 # Launch training
-python src/model/train.py \
+python -m src.model.train \
   --processed_dir data/processed \
-  --outputs_dir outputs/model \
+  --output_dir outputs/modesl \
   --num_classes 10 \
   --batch_size 64 \
   --num_workers 8 \
