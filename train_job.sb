@@ -24,6 +24,6 @@ python -m src.model.train \
   --output_dir outputs/modesl \
   --num_classes 10 \
   --batch_size 64 \
-  --num_workers 8 \
+  --num_workers 4 \
   --num_epochs 20 \
   --lr 1e-3
