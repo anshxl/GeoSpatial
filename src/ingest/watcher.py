@@ -11,10 +11,10 @@ from src.utils.logger import logger
 from src.ingest.infer import get_class_names, build_model, infer_single_image
 
 # Define constants
-CLASS_NAMES = get_class_names(os.path.join(os.path.dirname(__file__), "../../data/class_names.json"))
+CLASS_NAMES = get_class_names(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../outputs/class_names.json")))
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL = build_model(len(CLASS_NAMES),
-                    os.path.join(os.path.dirname(__file__), "../../outputs/models/best_model.pt"),
+                    os.path.abspath(os.path.join(os.path.dirname(__file__), "../../outputs/models/best_model.pt")),
                     DEVICE)
 TRANS = T.Compose([
     T.Resize((64, 64)),
@@ -26,7 +26,7 @@ CSV_PATH = "outputs/streaming_predictions.csv"
 if not os.path.exists(CSV_PATH):
     with open(CSV_PATH, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["filepath","pred_label","confidence"])
+        writer.writerow(["filepath","true_label","pred_label","confidence"])
 
 # Configure path relative to project root
 RAW_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw"))
@@ -34,6 +34,7 @@ PROCESSED_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__),  "../../
 
 class NewFileHandler(FileSystemEventHandler):
     def on_created(self, event):
+        """Handle new file creation events."""
         if event.is_directory:
             return
         src_path = event.src_path
@@ -46,9 +47,10 @@ class NewFileHandler(FileSystemEventHandler):
 
                 # Perform inference
                 pred, conf = infer_single_image(dest_path, MODEL, TRANS, CLASS_NAMES, DEVICE)
+                true_label = dest_path.split(os.path.sep)[-1].split('_')[0] # Assuming the filename is the true label
                 with open(CSV_PATH, "a", newline="") as f:
                     writer = csv.writer(f)
-                    writer.writerow([dest_path, pred, f"{conf.item():.4f}"])
+                    writer.writerow([dest_path, true_label, pred, f"{conf:.4f}"])
                 
                 logger.info(
                     f"Inferred {filename} → {pred} (conf={conf:.2f})"
@@ -56,7 +58,6 @@ class NewFileHandler(FileSystemEventHandler):
             except Exception as e:
                 logger.error(f"Error processing {filename}: {e}")
         
-            
 def main():
     # Ensure directories exist
     os.makedirs(RAW_DIR, exist_ok=True)
