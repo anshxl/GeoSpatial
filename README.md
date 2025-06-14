@@ -1,4 +1,3 @@
-```markdown
 # Geospatial ML Pipeline
 
 > **A self-contained demo** of a real-time satellite-imagery ML pipeline—from raw files to live dashboard—in under 2 weeks.
@@ -22,9 +21,7 @@ Everything is modular, reproducible, and easy to demo—even on an HPC cluster.
 ---
 
 ## Repo Structure
-
-```
-
+````
 ├── data/
 │   ├── raw/               ← watcher’s input folder
 │   ├── processed/         ← static-preprocessed images
@@ -55,7 +52,6 @@ Everything is modular, reproducible, and easy to demo—even on an HPC cluster.
 │        └── injector.py
 │     └── visualization/
 │        └── dashboard.py   ← Streamlit app
-
 ````
 
 ---
@@ -167,6 +163,3 @@ In the sidebar you can:
 ## License & Acknowledgments
 
 This project is MIT-licensed. Inspired by the needs of satellite + energy data workflows—and built in a weekend hackathon style. Enjoy, adapt, and send feedback!
-
-```
-```
