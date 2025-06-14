@@ -42,5 +42,7 @@ if __name__ == "__main__":
                    help="Pipeline entry (e.g. data/raw)")
     p.add_argument("--delay",   type=float, default=5.0,
                    help="Seconds between each file injection")
+    p.add_argument("--seed",   type=int, default=None,
+                     help="Random seed for shuffling files")
     args = p.parse_args()
-    inject(args.src_dir, args.dst_dir, args.delay)
+    inject(args.src_dir, args.dst_dir, args.delay, args.seed)
