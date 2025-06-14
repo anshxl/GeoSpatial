@@ -16,6 +16,10 @@ def inject(src_dir, dst_dir, delay: float, seed: int = None):
         for fname in os.listdir(cls_src):
             if not fname.lower().endswith(('.jpg', '.jpeg', '.png')):
                 continue
+            # Skip files that already exist in destination
+            if os.path.exists(os.path.join(cls_dst, fname)):
+                logger.warning(f"[Injector] Skipping {cls}/{fname} (already exists in destination)")
+                continue
             src_path = os.path.join(cls_src, fname)
             dst_path = os.path.join(cls_dst, fname)
             jobs.append((src_path, dst_path))
@@ -45,4 +49,12 @@ if __name__ == "__main__":
     p.add_argument("--seed",   type=int, default=None,
                      help="Random seed for shuffling files")
     args = p.parse_args()
-    inject(args.src_dir, args.dst_dir, args.delay, args.seed)
+    try:
+        inject(
+            src_dir=args.src_dir,
+            dst_dir=args.dst_dir,
+            delay=args.delay,
+            seed=args.seed
+        )
+    except KeyboardInterrupt:
+        logger.info("[Injector] Stopped by user.")

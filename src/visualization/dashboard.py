@@ -2,9 +2,8 @@ import streamlit as st
 from streamlit_autorefresh import st_autorefresh  # type: ignore
 import os
 import json
+import subprocess
 from pathlib import Path
-import glob
-from PIL import Image
 import pandas as pd
 import matplotlib.pyplot as plt # type: ignore
 import seaborn as sns # type: ignore
@@ -23,6 +22,85 @@ st.set_page_config(
 # Sidebar navigation
 page = st.sidebar.selectbox("Page", ["Streaming", "Batch Metrics"])
 
+def start_process(key, cmd, success_msg, error_msg):
+    """Launch `cmd` once and store the Popen handle under st.session_state[key]."""
+    if key in st.session_state:
+        st.warning(f"{success_msg} is already running.")
+        return
+
+    try:
+        # Make stdout/stderr go to a log file, or DEVNULL if you prefer silent
+        log_path = os.path.join("logs", f"{key}.log")
+        os.makedirs("logs", exist_ok=True)
+        log_file = open(log_path, "a")
+
+        # Launch the subprocess
+        proc = subprocess.Popen(
+            cmd,
+            stdout=log_file,
+            stderr=log_file,
+            cwd=os.getcwd(),  # ensure we’re in project root
+        )
+        st.session_state[key] = proc
+        st.success(success_msg)
+    except Exception as e:
+        st.error(f"{error_msg}: {e}")
+
+st.sidebar.header("🚀 Simulated Real-Time Inference")
+
+# 1) explanatory text
+st.sidebar.markdown(
+    """
+    **How it works**  
+    1. **Injector**: copies one held-out test image into `data/raw/` every _N_ seconds.  
+    2. **Watcher**: immediately moves that image to `data/processed/`.  
+    3. **Inference**: runs your model on it, appends to `streaming_predictions.csv`.  
+    4. **Dashboard**: auto-refreshes every 5 s to show latest results.  
+    """
+)
+
+# 2) interactive delay picker
+delay = st.sidebar.number_input(
+    "Injector delay (seconds)",
+    min_value=1,
+    max_value=60,
+    value=10,
+    step=1
+)
+
+# Button to start the watcher
+if st.sidebar.button("▶️ Start Watcher"):
+    start_process(
+        key       = "watcher_proc",
+        cmd       = ["python", "-m", "src.ingest.watcher"],
+        success_msg = "Watcher",
+        error_msg   = "Failed to start watcher",
+    )
+
+# Button to start the injector
+if st.sidebar.button("▶️ Start Injector"):
+    start_process(
+        key       = "injector_proc",
+        cmd       = [
+            "python", "-m", "src.utils.injector",
+            "--src_dir", "data/test",
+            "--dst_dir", "data/raw",
+            "--delay",   str(delay),
+            "--seed",    "42"
+        ],
+        success_msg = "Injector",
+        error_msg   = "Failed to start injector",
+    )
+
+# Button to stop both
+if st.sidebar.button("⏹ Stop All"):
+    for key in ["watcher_proc","injector_proc"]:
+        proc = st.session_state.get(key)
+        if proc:
+            proc.terminate()
+            st.session_state.pop(key)
+    st.warning("Stopped watcher and injector.")
+
 @st.cache_data
 def load_batch():
     try:
@@ -32,7 +110,7 @@ def load_batch():
         st.error("Batch predictions CSV not found. Please run inference first.")
         return pd.DataFrame()
 
-@st.cache_data(ttl=60)
+@st.cache_data(ttl=10)
 def load_stream():
     try:
         df = pd.read_csv(f"{OUTPUTS}/streaming_predictions.csv")
@@ -86,7 +164,7 @@ if page == "Batch Metrics":
     
 elif page == "Streaming":
     # Auto-refresh every 60 seconds
-    count = st_autorefresh(interval=60 * 1000, key="data_refresh")
+    count = st_autorefresh(interval=int(delay * 1000), key="data_refresh")
 
     st.title("Real-time Streaming Inference")
     df = load_stream()
@@ -96,24 +174,27 @@ elif page == "Streaming":
     )
 
     # Display latest image
-    all_images = glob.glob("data/processed/*.png") + glob.glob("data/processed/*.jpg")
-    if all_images:
-        latest = max(all_images, key=os.path.getmtime)
-        # st.subheader("Last Image Processed")
-        # st.image(latest, caption=os.path.basename(latest), use_container_width=False)
+    if not df.empty:
+        last_row = df.iloc[-1]
+        last_path = last_row.filepath
+        last_pred = last_row.pred_label
+        last_conf = last_row.confidence
     else:
-        st.info("No processed images yet.")
+        last_path = None
+        last_pred = None
+        last_conf = None
 
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        st.subheader("Last Image Processed")
-        st.image(latest, caption=os.path.basename(latest), use_container_width=True)
-    with col2:
-        st.subheader("Last Prediction")
-        st.markdown(
-        f"{df.iloc[-1]['pred_label']} \n"
-        f" (confidence = {df.iloc[-1]['confidence']:.2f})"
-    )
+    if last_path:
+        st.subheader("Last Inference")
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            # force width or height as you like
+            st.image(last_path, caption=os.path.basename(last_path), width=300)
+        with col2:
+            st.markdown("### Prediction")
+            st.markdown(f"**{last_pred}**  \nconfidence: {last_conf:.4f}")
+    else:
+        st.info("Waiting for first streaming inference…")
 
     # Live Predictions Table with running accuracy
     st.subheader("Recent Predictions")

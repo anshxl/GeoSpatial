@@ -2884,3 +2884,716 @@
 2025-06-13 14:35:29 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
 2025-06-13 14:35:29 - geoPipeline - INFO - Moved Pasture_1534.jpg to processed directory.
 2025-06-13 14:35:29 - geoPipeline - INFO - Inferred Pasture_1534.jpg → AnnualCrop (conf=0.60)
+2025-06-13 21:34:45 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-13 21:35:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:36:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2374.jpg
+2025-06-13 21:36:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:36:01 - geoPipeline - INFO - Moved AnnualCrop_2374.jpg to processed directory.
+2025-06-13 21:36:01 - geoPipeline - INFO - Inferred AnnualCrop_2374.jpg → AnnualCrop (conf=1.00)
+2025-06-13 21:36:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2531.jpg
+2025-06-13 21:36:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:36:21 - geoPipeline - INFO - Moved SeaLake_2531.jpg to processed directory.
+2025-06-13 21:36:21 - geoPipeline - INFO - Inferred SeaLake_2531.jpg → SeaLake (conf=0.98)
+2025-06-13 21:36:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1105.jpg
+2025-06-13 21:36:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:36:41 - geoPipeline - INFO - Moved Pasture_1105.jpg to processed directory.
+2025-06-13 21:36:41 - geoPipeline - INFO - Inferred Pasture_1105.jpg → Pasture (conf=1.00)
+2025-06-13 21:37:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_14.jpg
+2025-06-13 21:37:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:37:01 - geoPipeline - INFO - Moved Highway_14.jpg to processed directory.
+2025-06-13 21:37:01 - geoPipeline - INFO - Inferred Highway_14.jpg → Highway (conf=0.82)
+2025-06-13 21:37:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1351.jpg
+2025-06-13 21:37:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:37:21 - geoPipeline - INFO - Moved SeaLake_1351.jpg to processed directory.
+2025-06-13 21:37:21 - geoPipeline - INFO - Inferred SeaLake_1351.jpg → SeaLake (conf=0.94)
+2025-06-13 21:37:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2767.jpg
+2025-06-13 21:37:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:37:41 - geoPipeline - INFO - Moved SeaLake_2767.jpg to processed directory.
+2025-06-13 21:37:41 - geoPipeline - INFO - Inferred SeaLake_2767.jpg → SeaLake (conf=0.93)
+2025-06-13 21:38:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_2485.jpg
+2025-06-13 21:38:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:38:01 - geoPipeline - INFO - Moved River_2485.jpg to processed directory.
+2025-06-13 21:38:01 - geoPipeline - INFO - Inferred River_2485.jpg → River (conf=1.00)
+2025-06-13 21:38:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1287.jpg
+2025-06-13 21:38:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:38:21 - geoPipeline - INFO - Moved SeaLake_1287.jpg to processed directory.
+2025-06-13 21:38:21 - geoPipeline - INFO - Inferred SeaLake_1287.jpg → SeaLake (conf=1.00)
+2025-06-13 21:38:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_1450.jpg
+2025-06-13 21:38:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:38:41 - geoPipeline - INFO - Moved AnnualCrop_1450.jpg to processed directory.
+2025-06-13 21:38:41 - geoPipeline - INFO - Inferred AnnualCrop_1450.jpg → AnnualCrop (conf=1.00)
+2025-06-13 21:39:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_719.jpg
+2025-06-13 21:39:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:39:01 - geoPipeline - INFO - Moved Residential_719.jpg to processed directory.
+2025-06-13 21:39:01 - geoPipeline - INFO - Inferred Residential_719.jpg → Residential (conf=1.00)
+2025-06-13 21:39:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_541.jpg
+2025-06-13 21:39:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:39:21 - geoPipeline - INFO - Moved Forest_541.jpg to processed directory.
+2025-06-13 21:39:21 - geoPipeline - INFO - Inferred Forest_541.jpg → Forest (conf=1.00)
+2025-06-13 21:39:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_622.jpg
+2025-06-13 21:39:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:39:41 - geoPipeline - INFO - Moved Residential_622.jpg to processed directory.
+2025-06-13 21:39:41 - geoPipeline - INFO - Inferred Residential_622.jpg → Residential (conf=1.00)
+2025-06-13 21:40:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_2024.jpg
+2025-06-13 21:40:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:40:01 - geoPipeline - INFO - Moved HerbaceousVegetation_2024.jpg to processed directory.
+2025-06-13 21:40:01 - geoPipeline - INFO - Inferred HerbaceousVegetation_2024.jpg → HerbaceousVegetation (conf=1.00)
+2025-06-13 21:40:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1629.jpg
+2025-06-13 21:40:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:40:21 - geoPipeline - INFO - Moved Forest_1629.jpg to processed directory.
+2025-06-13 21:40:21 - geoPipeline - INFO - Inferred Forest_1629.jpg → Forest (conf=0.99)
+2025-06-13 21:40:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_645.jpg
+2025-06-13 21:40:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:40:41 - geoPipeline - INFO - Moved Highway_645.jpg to processed directory.
+2025-06-13 21:40:41 - geoPipeline - INFO - Inferred Highway_645.jpg → Highway (conf=0.76)
+2025-06-13 21:41:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1805.jpg
+2025-06-13 21:41:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:41:01 - geoPipeline - INFO - Moved Highway_1805.jpg to processed directory.
+2025-06-13 21:41:01 - geoPipeline - INFO - Inferred Highway_1805.jpg → Highway (conf=1.00)
+2025-06-13 21:41:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_654.jpg
+2025-06-13 21:41:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:41:21 - geoPipeline - INFO - Moved Pasture_654.jpg to processed directory.
+2025-06-13 21:41:21 - geoPipeline - INFO - Inferred Pasture_654.jpg → Pasture (conf=0.99)
+2025-06-13 21:41:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1581.jpg
+2025-06-13 21:41:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:41:41 - geoPipeline - INFO - Moved Residential_1581.jpg to processed directory.
+2025-06-13 21:41:41 - geoPipeline - INFO - Inferred Residential_1581.jpg → Residential (conf=1.00)
+2025-06-13 21:42:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_189.jpg
+2025-06-13 21:42:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:42:01 - geoPipeline - INFO - Moved Industrial_189.jpg to processed directory.
+2025-06-13 21:42:01 - geoPipeline - INFO - Inferred Industrial_189.jpg → Industrial (conf=0.99)
+2025-06-13 21:42:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1945.jpg
+2025-06-13 21:42:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:42:21 - geoPipeline - INFO - Moved Residential_1945.jpg to processed directory.
+2025-06-13 21:42:21 - geoPipeline - INFO - Inferred Residential_1945.jpg → Residential (conf=1.00)
+2025-06-13 21:42:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_585.jpg
+2025-06-13 21:42:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:42:41 - geoPipeline - INFO - Moved River_585.jpg to processed directory.
+2025-06-13 21:42:41 - geoPipeline - INFO - Inferred River_585.jpg → River (conf=0.72)
+2025-06-13 21:43:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_1058.jpg
+2025-06-13 21:43:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:43:01 - geoPipeline - INFO - Moved HerbaceousVegetation_1058.jpg to processed directory.
+2025-06-13 21:43:01 - geoPipeline - INFO - Inferred HerbaceousVegetation_1058.jpg → HerbaceousVegetation (conf=0.66)
+2025-06-13 21:43:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_2559.jpg
+2025-06-13 21:43:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:43:21 - geoPipeline - INFO - Moved Residential_2559.jpg to processed directory.
+2025-06-13 21:43:21 - geoPipeline - INFO - Inferred Residential_2559.jpg → Residential (conf=1.00)
+2025-06-13 21:43:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_120.jpg
+2025-06-13 21:43:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:43:41 - geoPipeline - INFO - Moved Highway_120.jpg to processed directory.
+2025-06-13 21:43:41 - geoPipeline - INFO - Inferred Highway_120.jpg → Highway (conf=0.97)
+2025-06-13 21:44:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1561.jpg
+2025-06-13 21:44:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:44:01 - geoPipeline - INFO - Moved River_1561.jpg to processed directory.
+2025-06-13 21:44:01 - geoPipeline - INFO - Inferred River_1561.jpg → River (conf=1.00)
+2025-06-13 21:44:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2759.jpg
+2025-06-13 21:44:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:44:21 - geoPipeline - INFO - Moved AnnualCrop_2759.jpg to processed directory.
+2025-06-13 21:44:21 - geoPipeline - INFO - Inferred AnnualCrop_2759.jpg → AnnualCrop (conf=1.00)
+2025-06-13 21:44:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_838.jpg
+2025-06-13 21:44:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:44:41 - geoPipeline - INFO - Moved River_838.jpg to processed directory.
+2025-06-13 21:44:41 - geoPipeline - INFO - Inferred River_838.jpg → River (conf=0.77)
+2025-06-13 21:45:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_623.jpg
+2025-06-13 21:45:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:45:01 - geoPipeline - INFO - Moved Pasture_623.jpg to processed directory.
+2025-06-13 21:45:01 - geoPipeline - INFO - Inferred Pasture_623.jpg → Forest (conf=1.00)
+2025-06-13 21:45:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1259.jpg
+2025-06-13 21:45:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:45:21 - geoPipeline - INFO - Moved PermanentCrop_1259.jpg to processed directory.
+2025-06-13 21:45:21 - geoPipeline - INFO - Inferred PermanentCrop_1259.jpg → PermanentCrop (conf=0.97)
+2025-06-13 21:45:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_2317.jpg
+2025-06-13 21:45:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:45:41 - geoPipeline - INFO - Moved Highway_2317.jpg to processed directory.
+2025-06-13 21:45:41 - geoPipeline - INFO - Inferred Highway_2317.jpg → Highway (conf=1.00)
+2025-06-13 21:46:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_838.jpg
+2025-06-13 21:46:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:46:01 - geoPipeline - INFO - Moved PermanentCrop_838.jpg to processed directory.
+2025-06-13 21:46:01 - geoPipeline - INFO - Inferred PermanentCrop_838.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:46:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2881.jpg
+2025-06-13 21:46:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:46:21 - geoPipeline - INFO - Moved SeaLake_2881.jpg to processed directory.
+2025-06-13 21:46:21 - geoPipeline - INFO - Inferred SeaLake_2881.jpg → SeaLake (conf=0.97)
+2025-06-13 21:46:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_393.jpg
+2025-06-13 21:46:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:46:41 - geoPipeline - INFO - Moved SeaLake_393.jpg to processed directory.
+2025-06-13 21:46:41 - geoPipeline - INFO - Inferred SeaLake_393.jpg → SeaLake (conf=0.99)
+2025-06-13 21:47:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1387.jpg
+2025-06-13 21:47:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:47:01 - geoPipeline - INFO - Moved SeaLake_1387.jpg to processed directory.
+2025-06-13 21:47:01 - geoPipeline - INFO - Inferred SeaLake_1387.jpg → SeaLake (conf=0.93)
+2025-06-13 21:47:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2605.jpg
+2025-06-13 21:47:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:47:21 - geoPipeline - INFO - Moved SeaLake_2605.jpg to processed directory.
+2025-06-13 21:47:21 - geoPipeline - INFO - Inferred SeaLake_2605.jpg → SeaLake (conf=0.44)
+2025-06-13 21:47:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1593.jpg
+2025-06-13 21:47:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:47:41 - geoPipeline - INFO - Moved PermanentCrop_1593.jpg to processed directory.
+2025-06-13 21:47:41 - geoPipeline - INFO - Inferred PermanentCrop_1593.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:48:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1440.jpg
+2025-06-13 21:48:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:48:01 - geoPipeline - INFO - Moved Pasture_1440.jpg to processed directory.
+2025-06-13 21:48:01 - geoPipeline - INFO - Inferred Pasture_1440.jpg → Pasture (conf=1.00)
+2025-06-13 21:48:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_974.jpg
+2025-06-13 21:48:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:48:21 - geoPipeline - INFO - Moved Pasture_974.jpg to processed directory.
+2025-06-13 21:48:21 - geoPipeline - INFO - Inferred Pasture_974.jpg → Pasture (conf=0.76)
+2025-06-13 21:48:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_2895.jpg
+2025-06-13 21:48:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:48:41 - geoPipeline - INFO - Moved Residential_2895.jpg to processed directory.
+2025-06-13 21:48:41 - geoPipeline - INFO - Inferred Residential_2895.jpg → Residential (conf=1.00)
+2025-06-13 21:49:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1743.jpg
+2025-06-13 21:49:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:49:01 - geoPipeline - INFO - Moved Pasture_1743.jpg to processed directory.
+2025-06-13 21:49:01 - geoPipeline - INFO - Inferred Pasture_1743.jpg → Pasture (conf=1.00)
+2025-06-13 21:49:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_431.jpg
+2025-06-13 21:49:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:49:21 - geoPipeline - INFO - Moved Highway_431.jpg to processed directory.
+2025-06-13 21:49:21 - geoPipeline - INFO - Inferred Highway_431.jpg → Highway (conf=1.00)
+2025-06-13 21:49:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_57.jpg
+2025-06-13 21:49:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:49:41 - geoPipeline - INFO - Moved PermanentCrop_57.jpg to processed directory.
+2025-06-13 21:49:41 - geoPipeline - INFO - Inferred PermanentCrop_57.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:50:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1149.jpg
+2025-06-13 21:50:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:50:01 - geoPipeline - INFO - Moved Highway_1149.jpg to processed directory.
+2025-06-13 21:50:01 - geoPipeline - INFO - Inferred Highway_1149.jpg → Highway (conf=1.00)
+2025-06-13 21:50:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1644.jpg
+2025-06-13 21:50:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:50:21 - geoPipeline - INFO - Moved Pasture_1644.jpg to processed directory.
+2025-06-13 21:50:21 - geoPipeline - INFO - Inferred Pasture_1644.jpg → Forest (conf=0.89)
+2025-06-13 21:50:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2512.jpg
+2025-06-13 21:50:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:50:41 - geoPipeline - INFO - Moved Forest_2512.jpg to processed directory.
+2025-06-13 21:50:41 - geoPipeline - INFO - Inferred Forest_2512.jpg → Forest (conf=0.99)
+2025-06-13 21:51:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1652.jpg
+2025-06-13 21:51:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:51:01 - geoPipeline - INFO - Moved Forest_1652.jpg to processed directory.
+2025-06-13 21:51:01 - geoPipeline - INFO - Inferred Forest_1652.jpg → Forest (conf=1.00)
+2025-06-13 21:51:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_532.jpg
+2025-06-13 21:51:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:51:21 - geoPipeline - INFO - Moved PermanentCrop_532.jpg to processed directory.
+2025-06-13 21:51:21 - geoPipeline - INFO - Inferred PermanentCrop_532.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:51:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1713.jpg
+2025-06-13 21:51:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:51:41 - geoPipeline - INFO - Moved Residential_1713.jpg to processed directory.
+2025-06-13 21:51:41 - geoPipeline - INFO - Inferred Residential_1713.jpg → Residential (conf=0.99)
+2025-06-13 21:52:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_939.jpg
+2025-06-13 21:52:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:52:01 - geoPipeline - INFO - Moved Highway_939.jpg to processed directory.
+2025-06-13 21:52:01 - geoPipeline - INFO - Inferred Highway_939.jpg → Highway (conf=0.97)
+2025-06-13 21:52:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2779.jpg
+2025-06-13 21:52:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:52:21 - geoPipeline - INFO - Moved SeaLake_2779.jpg to processed directory.
+2025-06-13 21:52:21 - geoPipeline - INFO - Inferred SeaLake_2779.jpg → AnnualCrop (conf=0.89)
+2025-06-13 21:52:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1014.jpg
+2025-06-13 21:52:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:52:41 - geoPipeline - INFO - Moved Residential_1014.jpg to processed directory.
+2025-06-13 21:52:41 - geoPipeline - INFO - Inferred Residential_1014.jpg → Residential (conf=1.00)
+2025-06-13 21:53:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1912.jpg
+2025-06-13 21:53:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:53:01 - geoPipeline - INFO - Moved River_1912.jpg to processed directory.
+2025-06-13 21:53:01 - geoPipeline - INFO - Inferred River_1912.jpg → River (conf=1.00)
+2025-06-13 21:53:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_821.jpg
+2025-06-13 21:53:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:53:21 - geoPipeline - INFO - Moved HerbaceousVegetation_821.jpg to processed directory.
+2025-06-13 21:53:21 - geoPipeline - INFO - Inferred HerbaceousVegetation_821.jpg → HerbaceousVegetation (conf=1.00)
+2025-06-13 21:53:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_135.jpg
+2025-06-13 21:53:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:53:41 - geoPipeline - INFO - Moved Residential_135.jpg to processed directory.
+2025-06-13 21:53:41 - geoPipeline - INFO - Inferred Residential_135.jpg → Residential (conf=0.99)
+2025-06-13 21:54:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_2648.jpg
+2025-06-13 21:54:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:54:01 - geoPipeline - INFO - Moved Residential_2648.jpg to processed directory.
+2025-06-13 21:54:01 - geoPipeline - INFO - Inferred Residential_2648.jpg → Residential (conf=1.00)
+2025-06-13 21:54:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_2360.jpg
+2025-06-13 21:54:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:54:21 - geoPipeline - INFO - Moved Industrial_2360.jpg to processed directory.
+2025-06-13 21:54:21 - geoPipeline - INFO - Inferred Industrial_2360.jpg → Industrial (conf=0.99)
+2025-06-13 21:54:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_567.jpg
+2025-06-13 21:54:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:54:41 - geoPipeline - INFO - Moved AnnualCrop_567.jpg to processed directory.
+2025-06-13 21:54:41 - geoPipeline - INFO - Inferred AnnualCrop_567.jpg → AnnualCrop (conf=0.99)
+2025-06-13 21:55:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1237.jpg
+2025-06-13 21:55:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:55:01 - geoPipeline - INFO - Moved River_1237.jpg to processed directory.
+2025-06-13 21:55:01 - geoPipeline - INFO - Inferred River_1237.jpg → River (conf=1.00)
+2025-06-13 21:55:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_562.jpg
+2025-06-13 21:55:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:55:21 - geoPipeline - INFO - Moved Pasture_562.jpg to processed directory.
+2025-06-13 21:55:21 - geoPipeline - INFO - Inferred Pasture_562.jpg → Pasture (conf=1.00)
+2025-06-13 21:55:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_459.jpg
+2025-06-13 21:55:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:55:41 - geoPipeline - INFO - Moved PermanentCrop_459.jpg to processed directory.
+2025-06-13 21:55:41 - geoPipeline - INFO - Inferred PermanentCrop_459.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:56:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1857.jpg
+2025-06-13 21:56:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:56:01 - geoPipeline - INFO - Moved River_1857.jpg to processed directory.
+2025-06-13 21:56:01 - geoPipeline - INFO - Inferred River_1857.jpg → River (conf=1.00)
+2025-06-13 21:56:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_648.jpg
+2025-06-13 21:56:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:56:21 - geoPipeline - INFO - Moved Residential_648.jpg to processed directory.
+2025-06-13 21:56:21 - geoPipeline - INFO - Inferred Residential_648.jpg → Residential (conf=0.99)
+2025-06-13 21:56:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1882.jpg
+2025-06-13 21:56:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:56:41 - geoPipeline - INFO - Moved Highway_1882.jpg to processed directory.
+2025-06-13 21:56:41 - geoPipeline - INFO - Inferred Highway_1882.jpg → Highway (conf=1.00)
+2025-06-13 21:57:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_238.jpg
+2025-06-13 21:57:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:57:01 - geoPipeline - INFO - Moved AnnualCrop_238.jpg to processed directory.
+2025-06-13 21:57:01 - geoPipeline - INFO - Inferred AnnualCrop_238.jpg → PermanentCrop (conf=1.00)
+2025-06-13 21:57:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_931.jpg
+2025-06-13 21:57:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:57:21 - geoPipeline - INFO - Moved Industrial_931.jpg to processed directory.
+2025-06-13 21:57:21 - geoPipeline - INFO - Inferred Industrial_931.jpg → Industrial (conf=0.59)
+2025-06-13 21:57:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_558.jpg
+2025-06-13 21:57:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:57:41 - geoPipeline - INFO - Moved Industrial_558.jpg to processed directory.
+2025-06-13 21:57:41 - geoPipeline - INFO - Inferred Industrial_558.jpg → Industrial (conf=1.00)
+2025-06-13 21:58:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1077.jpg
+2025-06-13 21:58:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:58:01 - geoPipeline - INFO - Moved Highway_1077.jpg to processed directory.
+2025-06-13 21:58:01 - geoPipeline - INFO - Inferred Highway_1077.jpg → Highway (conf=1.00)
+2025-06-13 21:58:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_1361.jpg
+2025-06-13 21:58:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:58:21 - geoPipeline - INFO - Moved AnnualCrop_1361.jpg to processed directory.
+2025-06-13 21:58:21 - geoPipeline - INFO - Inferred AnnualCrop_1361.jpg → AnnualCrop (conf=1.00)
+2025-06-13 21:58:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_6.jpg
+2025-06-13 21:58:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:58:41 - geoPipeline - INFO - Moved AnnualCrop_6.jpg to processed directory.
+2025-06-13 21:58:42 - geoPipeline - INFO - Inferred AnnualCrop_6.jpg → AnnualCrop (conf=0.99)
+2025-06-13 21:59:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1172.jpg
+2025-06-13 21:59:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:59:01 - geoPipeline - INFO - Moved Forest_1172.jpg to processed directory.
+2025-06-13 21:59:02 - geoPipeline - INFO - Inferred Forest_1172.jpg → Forest (conf=0.97)
+2025-06-13 21:59:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_267.jpg
+2025-06-13 21:59:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:59:21 - geoPipeline - INFO - Moved Pasture_267.jpg to processed directory.
+2025-06-13 21:59:22 - geoPipeline - INFO - Inferred Pasture_267.jpg → Pasture (conf=0.96)
+2025-06-13 21:59:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2744.jpg
+2025-06-13 21:59:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 21:59:41 - geoPipeline - INFO - Moved SeaLake_2744.jpg to processed directory.
+2025-06-13 21:59:42 - geoPipeline - INFO - Inferred SeaLake_2744.jpg → SeaLake (conf=0.93)
+2025-06-13 22:00:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1993.jpg
+2025-06-13 22:00:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:00:01 - geoPipeline - INFO - Moved Forest_1993.jpg to processed directory.
+2025-06-13 22:00:02 - geoPipeline - INFO - Inferred Forest_1993.jpg → Forest (conf=0.98)
+2025-06-13 22:00:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_107.jpg
+2025-06-13 22:00:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:00:21 - geoPipeline - INFO - Moved River_107.jpg to processed directory.
+2025-06-13 22:00:22 - geoPipeline - INFO - Inferred River_107.jpg → River (conf=1.00)
+2025-06-13 22:00:41 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_731.jpg
+2025-06-13 22:00:41 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:00:41 - geoPipeline - INFO - Moved Residential_731.jpg to processed directory.
+2025-06-13 22:00:42 - geoPipeline - INFO - Inferred Residential_731.jpg → Residential (conf=1.00)
+2025-06-13 22:01:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_1084.jpg
+2025-06-13 22:01:01 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:01:02 - geoPipeline - INFO - Moved Industrial_1084.jpg to processed directory.
+2025-06-13 22:01:02 - geoPipeline - INFO - Inferred Industrial_1084.jpg → Industrial (conf=0.98)
+2025-06-13 22:01:21 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_60.jpg
+2025-06-13 22:01:21 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:01:22 - geoPipeline - INFO - Moved AnnualCrop_60.jpg to processed directory.
+2025-06-13 22:01:22 - geoPipeline - INFO - Inferred AnnualCrop_60.jpg → AnnualCrop (conf=1.00)
+2025-06-13 22:01:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1378.jpg
+2025-06-13 22:01:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:01:42 - geoPipeline - INFO - Moved Pasture_1378.jpg to processed directory.
+2025-06-13 22:01:42 - geoPipeline - INFO - Inferred Pasture_1378.jpg → Pasture (conf=0.84)
+2025-06-13 22:02:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1600.jpg
+2025-06-13 22:02:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:02:02 - geoPipeline - INFO - Moved Pasture_1600.jpg to processed directory.
+2025-06-13 22:02:02 - geoPipeline - INFO - Inferred Pasture_1600.jpg → Pasture (conf=1.00)
+2025-06-13 22:02:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_603.jpg
+2025-06-13 22:02:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:02:22 - geoPipeline - INFO - Moved Forest_603.jpg to processed directory.
+2025-06-13 22:02:22 - geoPipeline - INFO - Inferred Forest_603.jpg → Forest (conf=0.91)
+2025-06-13 22:02:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1376.jpg
+2025-06-13 22:02:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:02:42 - geoPipeline - INFO - Moved River_1376.jpg to processed directory.
+2025-06-13 22:02:42 - geoPipeline - INFO - Inferred River_1376.jpg → River (conf=1.00)
+2025-06-13 22:03:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2334.jpg
+2025-06-13 22:03:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:03:02 - geoPipeline - INFO - Moved AnnualCrop_2334.jpg to processed directory.
+2025-06-13 22:03:02 - geoPipeline - INFO - Inferred AnnualCrop_2334.jpg → AnnualCrop (conf=1.00)
+2025-06-13 22:03:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_2019.jpg
+2025-06-13 22:03:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:03:22 - geoPipeline - INFO - Moved River_2019.jpg to processed directory.
+2025-06-13 22:03:22 - geoPipeline - INFO - Inferred River_2019.jpg → River (conf=1.00)
+2025-06-13 22:03:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_399.jpg
+2025-06-13 22:03:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:03:42 - geoPipeline - INFO - Moved Highway_399.jpg to processed directory.
+2025-06-13 22:03:42 - geoPipeline - INFO - Inferred Highway_399.jpg → Highway (conf=0.75)
+2025-06-13 22:04:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_1988.jpg
+2025-06-13 22:04:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:04:02 - geoPipeline - INFO - Moved HerbaceousVegetation_1988.jpg to processed directory.
+2025-06-13 22:04:02 - geoPipeline - INFO - Inferred HerbaceousVegetation_1988.jpg → HerbaceousVegetation (conf=0.99)
+2025-06-13 22:04:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_694.jpg
+2025-06-13 22:04:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:04:22 - geoPipeline - INFO - Moved Forest_694.jpg to processed directory.
+2025-06-13 22:04:22 - geoPipeline - INFO - Inferred Forest_694.jpg → Forest (conf=1.00)
+2025-06-13 22:04:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_2434.jpg
+2025-06-13 22:04:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:04:42 - geoPipeline - INFO - Moved Industrial_2434.jpg to processed directory.
+2025-06-13 22:04:42 - geoPipeline - INFO - Inferred Industrial_2434.jpg → Industrial (conf=0.97)
+2025-06-13 22:05:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2657.jpg
+2025-06-13 22:05:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:05:02 - geoPipeline - INFO - Moved Forest_2657.jpg to processed directory.
+2025-06-13 22:05:02 - geoPipeline - INFO - Inferred Forest_2657.jpg → Forest (conf=1.00)
+2025-06-13 22:05:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1550.jpg
+2025-06-13 22:05:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:05:22 - geoPipeline - INFO - Moved Residential_1550.jpg to processed directory.
+2025-06-13 22:05:22 - geoPipeline - INFO - Inferred Residential_1550.jpg → Residential (conf=0.97)
+2025-06-13 22:05:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_2454.jpg
+2025-06-13 22:05:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:05:42 - geoPipeline - INFO - Moved PermanentCrop_2454.jpg to processed directory.
+2025-06-13 22:05:42 - geoPipeline - INFO - Inferred PermanentCrop_2454.jpg → PermanentCrop (conf=1.00)
+2025-06-13 22:06:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_465.jpg
+2025-06-13 22:06:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:06:02 - geoPipeline - INFO - Moved Industrial_465.jpg to processed directory.
+2025-06-13 22:06:02 - geoPipeline - INFO - Inferred Industrial_465.jpg → Industrial (conf=0.99)
+2025-06-13 22:06:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_974.jpg
+2025-06-13 22:06:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:06:22 - geoPipeline - INFO - Moved HerbaceousVegetation_974.jpg to processed directory.
+2025-06-13 22:06:22 - geoPipeline - INFO - Inferred HerbaceousVegetation_974.jpg → HerbaceousVegetation (conf=1.00)
+2025-06-13 22:06:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_2206.jpg
+2025-06-13 22:06:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:06:42 - geoPipeline - INFO - Moved HerbaceousVegetation_2206.jpg to processed directory.
+2025-06-13 22:06:42 - geoPipeline - INFO - Inferred HerbaceousVegetation_2206.jpg → HerbaceousVegetation (conf=0.82)
+2025-06-13 22:07:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1500.jpg
+2025-06-13 22:07:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:07:02 - geoPipeline - INFO - Moved Pasture_1500.jpg to processed directory.
+2025-06-13 22:07:02 - geoPipeline - INFO - Inferred Pasture_1500.jpg → Pasture (conf=1.00)
+2025-06-13 22:07:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1092.jpg
+2025-06-13 22:07:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:07:22 - geoPipeline - INFO - Moved Highway_1092.jpg to processed directory.
+2025-06-13 22:07:22 - geoPipeline - INFO - Inferred Highway_1092.jpg → Highway (conf=0.88)
+2025-06-13 22:07:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_25.jpg
+2025-06-13 22:07:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:07:42 - geoPipeline - INFO - Moved PermanentCrop_25.jpg to processed directory.
+2025-06-13 22:07:42 - geoPipeline - INFO - Inferred PermanentCrop_25.jpg → AnnualCrop (conf=0.84)
+2025-06-13 22:08:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2901.jpg
+2025-06-13 22:08:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:08:02 - geoPipeline - INFO - Moved SeaLake_2901.jpg to processed directory.
+2025-06-13 22:08:02 - geoPipeline - INFO - Inferred SeaLake_2901.jpg → SeaLake (conf=0.67)
+2025-06-13 22:08:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_47.jpg
+2025-06-13 22:08:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:08:22 - geoPipeline - INFO - Moved SeaLake_47.jpg to processed directory.
+2025-06-13 22:08:22 - geoPipeline - INFO - Inferred SeaLake_47.jpg → SeaLake (conf=1.00)
+2025-06-13 22:08:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1712.jpg
+2025-06-13 22:08:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:08:42 - geoPipeline - INFO - Moved Pasture_1712.jpg to processed directory.
+2025-06-13 22:08:42 - geoPipeline - INFO - Inferred Pasture_1712.jpg → Pasture (conf=0.81)
+2025-06-13 22:09:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1286.jpg
+2025-06-13 22:09:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:09:02 - geoPipeline - INFO - Moved PermanentCrop_1286.jpg to processed directory.
+2025-06-13 22:09:02 - geoPipeline - INFO - Inferred PermanentCrop_1286.jpg → PermanentCrop (conf=1.00)
+2025-06-13 22:09:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1478.jpg
+2025-06-13 22:09:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:09:22 - geoPipeline - INFO - Moved PermanentCrop_1478.jpg to processed directory.
+2025-06-13 22:09:22 - geoPipeline - INFO - Inferred PermanentCrop_1478.jpg → PermanentCrop (conf=1.00)
+2025-06-13 22:09:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2090.jpg
+2025-06-13 22:09:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:09:42 - geoPipeline - INFO - Moved Forest_2090.jpg to processed directory.
+2025-06-13 22:09:42 - geoPipeline - INFO - Inferred Forest_2090.jpg → Forest (conf=1.00)
+2025-06-13 22:10:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1690.jpg
+2025-06-13 22:10:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:10:02 - geoPipeline - INFO - Moved Residential_1690.jpg to processed directory.
+2025-06-13 22:10:02 - geoPipeline - INFO - Inferred Residential_1690.jpg → Residential (conf=1.00)
+2025-06-13 22:10:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1942.jpg
+2025-06-13 22:10:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:10:22 - geoPipeline - INFO - Moved PermanentCrop_1942.jpg to processed directory.
+2025-06-13 22:10:22 - geoPipeline - INFO - Inferred PermanentCrop_1942.jpg → AnnualCrop (conf=0.63)
+2025-06-13 22:10:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_1098.jpg
+2025-06-13 22:10:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:10:42 - geoPipeline - INFO - Moved HerbaceousVegetation_1098.jpg to processed directory.
+2025-06-13 22:10:42 - geoPipeline - INFO - Inferred HerbaceousVegetation_1098.jpg → HerbaceousVegetation (conf=0.98)
+2025-06-13 22:11:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2113.jpg
+2025-06-13 22:11:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:11:02 - geoPipeline - INFO - Moved SeaLake_2113.jpg to processed directory.
+2025-06-13 22:11:02 - geoPipeline - INFO - Inferred SeaLake_2113.jpg → SeaLake (conf=1.00)
+2025-06-13 22:11:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2181.jpg
+2025-06-13 22:11:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:11:22 - geoPipeline - INFO - Moved Forest_2181.jpg to processed directory.
+2025-06-13 22:11:22 - geoPipeline - INFO - Inferred Forest_2181.jpg → Forest (conf=1.00)
+2025-06-13 22:11:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1263.jpg
+2025-06-13 22:11:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:11:42 - geoPipeline - INFO - Moved Residential_1263.jpg to processed directory.
+2025-06-13 22:11:42 - geoPipeline - INFO - Inferred Residential_1263.jpg → Residential (conf=1.00)
+2025-06-13 22:12:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2035.jpg
+2025-06-13 22:12:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:12:02 - geoPipeline - INFO - Moved AnnualCrop_2035.jpg to processed directory.
+2025-06-13 22:12:02 - geoPipeline - INFO - Inferred AnnualCrop_2035.jpg → AnnualCrop (conf=1.00)
+2025-06-13 22:12:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2313.jpg
+2025-06-13 22:12:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:12:22 - geoPipeline - INFO - Moved Forest_2313.jpg to processed directory.
+2025-06-13 22:12:22 - geoPipeline - INFO - Inferred Forest_2313.jpg → Forest (conf=1.00)
+2025-06-13 22:12:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1454.jpg
+2025-06-13 22:12:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:12:42 - geoPipeline - INFO - Moved PermanentCrop_1454.jpg to processed directory.
+2025-06-13 22:12:42 - geoPipeline - INFO - Inferred PermanentCrop_1454.jpg → PermanentCrop (conf=1.00)
+2025-06-13 22:13:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_2377.jpg
+2025-06-13 22:13:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:13:02 - geoPipeline - INFO - Moved Forest_2377.jpg to processed directory.
+2025-06-13 22:13:02 - geoPipeline - INFO - Inferred Forest_2377.jpg → Forest (conf=0.97)
+2025-06-13 22:13:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_2524.jpg
+2025-06-13 22:13:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:13:22 - geoPipeline - INFO - Moved HerbaceousVegetation_2524.jpg to processed directory.
+2025-06-13 22:13:22 - geoPipeline - INFO - Inferred HerbaceousVegetation_2524.jpg → HerbaceousVegetation (conf=0.95)
+2025-06-13 22:13:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_310.jpg
+2025-06-13 22:13:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:13:42 - geoPipeline - INFO - Moved Highway_310.jpg to processed directory.
+2025-06-13 22:13:42 - geoPipeline - INFO - Inferred Highway_310.jpg → Highway (conf=0.98)
+2025-06-13 22:14:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_2004.jpg
+2025-06-13 22:14:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:14:02 - geoPipeline - INFO - Moved Industrial_2004.jpg to processed directory.
+2025-06-13 22:14:02 - geoPipeline - INFO - Inferred Industrial_2004.jpg → Industrial (conf=1.00)
+2025-06-13 22:14:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_799.jpg
+2025-06-13 22:14:22 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:14:22 - geoPipeline - INFO - Moved River_799.jpg to processed directory.
+2025-06-13 22:14:22 - geoPipeline - INFO - Inferred River_799.jpg → River (conf=1.00)
+2025-06-13 22:14:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_404.jpg
+2025-06-13 22:14:42 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:14:42 - geoPipeline - INFO - Moved Highway_404.jpg to processed directory.
+2025-06-13 22:14:42 - geoPipeline - INFO - Inferred Highway_404.jpg → Highway (conf=0.99)
+2025-06-13 22:15:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1336.jpg
+2025-06-13 22:15:02 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:15:02 - geoPipeline - INFO - Moved SeaLake_1336.jpg to processed directory.
+2025-06-13 22:15:02 - geoPipeline - INFO - Inferred SeaLake_1336.jpg → Forest (conf=0.59)
+2025-06-13 22:36:35 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_51.jpg
+2025-06-13 22:36:35 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:36:35 - geoPipeline - INFO - Moved Highway_51.jpg to processed directory.
+2025-06-13 22:36:35 - geoPipeline - INFO - Inferred Highway_51.jpg → PermanentCrop (conf=0.97)
+2025-06-13 22:36:55 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_2409.jpg
+2025-06-13 22:36:55 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:36:55 - geoPipeline - INFO - Moved Highway_2409.jpg to processed directory.
+2025-06-13 22:36:55 - geoPipeline - INFO - Inferred Highway_2409.jpg → Highway (conf=0.82)
+2025-06-13 22:54:09 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1847.jpg
+2025-06-13 22:54:09 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 22:54:09 - geoPipeline - INFO - Moved Residential_1847.jpg to processed directory.
+2025-06-13 22:54:09 - geoPipeline - INFO - Inferred Residential_1847.jpg → Residential (conf=1.00)
+2025-06-13 23:18:55 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2431.jpg
+2025-06-13 23:18:55 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 23:18:55 - geoPipeline - INFO - Moved SeaLake_2431.jpg to processed directory.
+2025-06-13 23:18:55 - geoPipeline - INFO - Inferred SeaLake_2431.jpg → SeaLake (conf=1.00)
+2025-06-13 23:49:53 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_335.jpg
+2025-06-13 23:49:53 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 23:49:53 - geoPipeline - INFO - Moved HerbaceousVegetation_335.jpg to processed directory.
+2025-06-13 23:49:53 - geoPipeline - INFO - Inferred HerbaceousVegetation_335.jpg → HerbaceousVegetation (conf=0.84)
+2025-06-13 23:56:26 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_333.jpg
+2025-06-13 23:56:26 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 23:56:26 - geoPipeline - INFO - Moved Forest_333.jpg to processed directory.
+2025-06-13 23:56:26 - geoPipeline - INFO - Inferred Forest_333.jpg → Forest (conf=0.99)
+2025-06-13 23:56:46 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_2211.jpg
+2025-06-13 23:56:46 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-13 23:56:46 - geoPipeline - INFO - Moved PermanentCrop_2211.jpg to processed directory.
+2025-06-13 23:56:46 - geoPipeline - INFO - Inferred PermanentCrop_2211.jpg → PermanentCrop (conf=1.00)
+2025-06-14 02:35:35 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-14 02:38:42 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:38:42 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-14 02:38:52 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2374.jpg
+2025-06-14 02:38:52 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:38:52 - geoPipeline - INFO - Moved AnnualCrop_2374.jpg to processed directory.
+2025-06-14 02:38:52 - geoPipeline - INFO - Inferred AnnualCrop_2374.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:39:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2531.jpg
+2025-06-14 02:39:02 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:02 - geoPipeline - INFO - Moved SeaLake_2531.jpg to processed directory.
+2025-06-14 02:39:02 - geoPipeline - INFO - Inferred SeaLake_2531.jpg → SeaLake (conf=0.98)
+2025-06-14 02:39:12 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1105.jpg
+2025-06-14 02:39:12 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:12 - geoPipeline - INFO - Moved Pasture_1105.jpg to processed directory.
+2025-06-14 02:39:12 - geoPipeline - INFO - Inferred Pasture_1105.jpg → Pasture (conf=1.00)
+2025-06-14 02:39:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_14.jpg
+2025-06-14 02:39:22 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:22 - geoPipeline - INFO - Moved Highway_14.jpg to processed directory.
+2025-06-14 02:39:22 - geoPipeline - INFO - Inferred Highway_14.jpg → Highway (conf=0.82)
+2025-06-14 02:39:32 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1351.jpg
+2025-06-14 02:39:32 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:32 - geoPipeline - INFO - Moved SeaLake_1351.jpg to processed directory.
+2025-06-14 02:39:32 - geoPipeline - INFO - Inferred SeaLake_1351.jpg → SeaLake (conf=0.94)
+2025-06-14 02:39:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2767.jpg
+2025-06-14 02:39:42 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:42 - geoPipeline - INFO - Moved SeaLake_2767.jpg to processed directory.
+2025-06-14 02:39:42 - geoPipeline - INFO - Inferred SeaLake_2767.jpg → SeaLake (conf=0.93)
+2025-06-14 02:39:52 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_2485.jpg
+2025-06-14 02:39:52 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:39:52 - geoPipeline - INFO - Moved River_2485.jpg to processed directory.
+2025-06-14 02:39:52 - geoPipeline - INFO - Inferred River_2485.jpg → River (conf=1.00)
+2025-06-14 02:40:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1287.jpg
+2025-06-14 02:40:02 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:02 - geoPipeline - INFO - Moved SeaLake_1287.jpg to processed directory.
+2025-06-14 02:40:02 - geoPipeline - INFO - Inferred SeaLake_1287.jpg → SeaLake (conf=1.00)
+2025-06-14 02:40:12 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_1450.jpg
+2025-06-14 02:40:12 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:12 - geoPipeline - INFO - Moved AnnualCrop_1450.jpg to processed directory.
+2025-06-14 02:40:12 - geoPipeline - INFO - Inferred AnnualCrop_1450.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:40:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_719.jpg
+2025-06-14 02:40:22 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:22 - geoPipeline - INFO - Moved Residential_719.jpg to processed directory.
+2025-06-14 02:40:22 - geoPipeline - INFO - Inferred Residential_719.jpg → Residential (conf=1.00)
+2025-06-14 02:40:32 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_541.jpg
+2025-06-14 02:40:32 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:32 - geoPipeline - INFO - Moved Forest_541.jpg to processed directory.
+2025-06-14 02:40:32 - geoPipeline - INFO - Inferred Forest_541.jpg → Forest (conf=1.00)
+2025-06-14 02:40:42 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_622.jpg
+2025-06-14 02:40:42 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:42 - geoPipeline - INFO - Moved Residential_622.jpg to processed directory.
+2025-06-14 02:40:42 - geoPipeline - INFO - Inferred Residential_622.jpg → Residential (conf=1.00)
+2025-06-14 02:40:52 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_2024.jpg
+2025-06-14 02:40:52 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:40:52 - geoPipeline - INFO - Moved HerbaceousVegetation_2024.jpg to processed directory.
+2025-06-14 02:40:52 - geoPipeline - INFO - Inferred HerbaceousVegetation_2024.jpg → HerbaceousVegetation (conf=1.00)
+2025-06-14 02:41:02 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1629.jpg
+2025-06-14 02:41:02 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:41:02 - geoPipeline - INFO - Moved Forest_1629.jpg to processed directory.
+2025-06-14 02:41:02 - geoPipeline - INFO - Inferred Forest_1629.jpg → Forest (conf=0.99)
+2025-06-14 02:41:12 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_645.jpg
+2025-06-14 02:41:12 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:41:12 - geoPipeline - INFO - Moved Highway_645.jpg to processed directory.
+2025-06-14 02:41:12 - geoPipeline - INFO - Inferred Highway_645.jpg → Highway (conf=0.76)
+2025-06-14 02:41:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1805.jpg
+2025-06-14 02:41:22 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:41:22 - geoPipeline - INFO - Moved Highway_1805.jpg to processed directory.
+2025-06-14 02:41:22 - geoPipeline - INFO - Inferred Highway_1805.jpg → Highway (conf=1.00)
+2025-06-14 02:41:32 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_654.jpg
+2025-06-14 02:41:32 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:41:32 - geoPipeline - INFO - Moved Pasture_654.jpg to processed directory.
+2025-06-14 02:41:32 - geoPipeline - INFO - Inferred Pasture_654.jpg → Pasture (conf=0.99)
+2025-06-14 02:43:55 - geoPipeline - INFO - [Injector] Waiting 20.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:43:57 - geoPipeline - WARNING - [Injector] Stopped by user.
+2025-06-14 02:49:59 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-14 02:50:01 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:50:11 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2374.jpg
+2025-06-14 02:50:11 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:50:11 - geoPipeline - INFO - Moved AnnualCrop_2374.jpg to processed directory.
+2025-06-14 02:50:11 - geoPipeline - INFO - Inferred AnnualCrop_2374.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:50:45 - geoPipeline - INFO - [Injector] Waiting 10.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:50:46 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-14 02:50:58 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:50:59 - geoPipeline - INFO - Watcher started. Monitoring /Users/AnshulSrivastava/Desktop/GeoSpatial ML/data/raw for new files...
+2025-06-14 02:51:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2374.jpg
+2025-06-14 02:51:01 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:01 - geoPipeline - INFO - Moved AnnualCrop_2374.jpg to processed directory.
+2025-06-14 02:51:01 - geoPipeline - INFO - Inferred AnnualCrop_2374.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:51:04 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2531.jpg
+2025-06-14 02:51:04 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:04 - geoPipeline - INFO - Moved SeaLake_2531.jpg to processed directory.
+2025-06-14 02:51:04 - geoPipeline - INFO - Inferred SeaLake_2531.jpg → SeaLake (conf=0.98)
+2025-06-14 02:51:07 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_1105.jpg
+2025-06-14 02:51:07 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:07 - geoPipeline - INFO - Moved Pasture_1105.jpg to processed directory.
+2025-06-14 02:51:07 - geoPipeline - INFO - Inferred Pasture_1105.jpg → Pasture (conf=1.00)
+2025-06-14 02:51:10 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_14.jpg
+2025-06-14 02:51:10 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:10 - geoPipeline - INFO - Moved Highway_14.jpg to processed directory.
+2025-06-14 02:51:10 - geoPipeline - INFO - Inferred Highway_14.jpg → Highway (conf=0.82)
+2025-06-14 02:51:13 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1351.jpg
+2025-06-14 02:51:13 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:13 - geoPipeline - INFO - Moved SeaLake_1351.jpg to processed directory.
+2025-06-14 02:51:13 - geoPipeline - INFO - Inferred SeaLake_1351.jpg → SeaLake (conf=0.94)
+2025-06-14 02:51:16 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2767.jpg
+2025-06-14 02:51:16 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:16 - geoPipeline - INFO - Moved SeaLake_2767.jpg to processed directory.
+2025-06-14 02:51:16 - geoPipeline - INFO - Inferred SeaLake_2767.jpg → SeaLake (conf=0.93)
+2025-06-14 02:51:19 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_2485.jpg
+2025-06-14 02:51:19 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:19 - geoPipeline - INFO - Moved River_2485.jpg to processed directory.
+2025-06-14 02:51:19 - geoPipeline - INFO - Inferred River_2485.jpg → River (conf=1.00)
+2025-06-14 02:51:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_1287.jpg
+2025-06-14 02:51:22 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:22 - geoPipeline - INFO - Moved SeaLake_1287.jpg to processed directory.
+2025-06-14 02:51:22 - geoPipeline - INFO - Inferred SeaLake_1287.jpg → SeaLake (conf=1.00)
+2025-06-14 02:51:25 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_1450.jpg
+2025-06-14 02:51:25 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:25 - geoPipeline - INFO - Moved AnnualCrop_1450.jpg to processed directory.
+2025-06-14 02:51:25 - geoPipeline - INFO - Inferred AnnualCrop_1450.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:51:28 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_719.jpg
+2025-06-14 02:51:28 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:28 - geoPipeline - INFO - Moved Residential_719.jpg to processed directory.
+2025-06-14 02:51:28 - geoPipeline - INFO - Inferred Residential_719.jpg → Residential (conf=1.00)
+2025-06-14 02:51:31 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_541.jpg
+2025-06-14 02:51:31 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:31 - geoPipeline - INFO - Moved Forest_541.jpg to processed directory.
+2025-06-14 02:51:31 - geoPipeline - INFO - Inferred Forest_541.jpg → Forest (conf=1.00)
+2025-06-14 02:51:34 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_622.jpg
+2025-06-14 02:51:34 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:34 - geoPipeline - INFO - Moved Residential_622.jpg to processed directory.
+2025-06-14 02:51:34 - geoPipeline - INFO - Inferred Residential_622.jpg → Residential (conf=1.00)
+2025-06-14 02:51:37 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_2024.jpg
+2025-06-14 02:51:37 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:37 - geoPipeline - INFO - Moved HerbaceousVegetation_2024.jpg to processed directory.
+2025-06-14 02:51:37 - geoPipeline - INFO - Inferred HerbaceousVegetation_2024.jpg → HerbaceousVegetation (conf=1.00)
+2025-06-14 02:51:40 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Forest/Forest_1629.jpg
+2025-06-14 02:51:40 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:40 - geoPipeline - INFO - Moved Forest_1629.jpg to processed directory.
+2025-06-14 02:51:40 - geoPipeline - INFO - Inferred Forest_1629.jpg → Forest (conf=0.99)
+2025-06-14 02:51:43 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_645.jpg
+2025-06-14 02:51:43 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:43 - geoPipeline - INFO - Moved Highway_645.jpg to processed directory.
+2025-06-14 02:51:43 - geoPipeline - INFO - Inferred Highway_645.jpg → Highway (conf=0.76)
+2025-06-14 02:51:46 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_1805.jpg
+2025-06-14 02:51:46 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:46 - geoPipeline - INFO - Moved Highway_1805.jpg to processed directory.
+2025-06-14 02:51:46 - geoPipeline - INFO - Inferred Highway_1805.jpg → Highway (conf=1.00)
+2025-06-14 02:51:49 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_654.jpg
+2025-06-14 02:51:49 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:49 - geoPipeline - INFO - Moved Pasture_654.jpg to processed directory.
+2025-06-14 02:51:49 - geoPipeline - INFO - Inferred Pasture_654.jpg → Pasture (conf=0.99)
+2025-06-14 02:51:52 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1581.jpg
+2025-06-14 02:51:52 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:52 - geoPipeline - INFO - Moved Residential_1581.jpg to processed directory.
+2025-06-14 02:51:52 - geoPipeline - INFO - Inferred Residential_1581.jpg → Residential (conf=1.00)
+2025-06-14 02:51:55 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Industrial/Industrial_189.jpg
+2025-06-14 02:51:55 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:55 - geoPipeline - INFO - Moved Industrial_189.jpg to processed directory.
+2025-06-14 02:51:55 - geoPipeline - INFO - Inferred Industrial_189.jpg → Industrial (conf=0.99)
+2025-06-14 02:51:58 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_1945.jpg
+2025-06-14 02:51:58 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:51:58 - geoPipeline - INFO - Moved Residential_1945.jpg to processed directory.
+2025-06-14 02:51:58 - geoPipeline - INFO - Inferred Residential_1945.jpg → Residential (conf=1.00)
+2025-06-14 02:52:01 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_585.jpg
+2025-06-14 02:52:01 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:01 - geoPipeline - INFO - Moved River_585.jpg to processed directory.
+2025-06-14 02:52:01 - geoPipeline - INFO - Inferred River_585.jpg → River (conf=0.72)
+2025-06-14 02:52:04 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/HerbaceousVegetation/HerbaceousVegetation_1058.jpg
+2025-06-14 02:52:04 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:04 - geoPipeline - INFO - Moved HerbaceousVegetation_1058.jpg to processed directory.
+2025-06-14 02:52:04 - geoPipeline - INFO - Inferred HerbaceousVegetation_1058.jpg → HerbaceousVegetation (conf=0.66)
+2025-06-14 02:52:07 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Residential/Residential_2559.jpg
+2025-06-14 02:52:07 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:07 - geoPipeline - INFO - Moved Residential_2559.jpg to processed directory.
+2025-06-14 02:52:07 - geoPipeline - INFO - Inferred Residential_2559.jpg → Residential (conf=1.00)
+2025-06-14 02:52:10 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_120.jpg
+2025-06-14 02:52:10 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:10 - geoPipeline - INFO - Moved Highway_120.jpg to processed directory.
+2025-06-14 02:52:10 - geoPipeline - INFO - Inferred Highway_120.jpg → Highway (conf=0.97)
+2025-06-14 02:52:13 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_1561.jpg
+2025-06-14 02:52:13 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:13 - geoPipeline - INFO - Moved River_1561.jpg to processed directory.
+2025-06-14 02:52:13 - geoPipeline - INFO - Inferred River_1561.jpg → River (conf=1.00)
+2025-06-14 02:52:16 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/AnnualCrop/AnnualCrop_2759.jpg
+2025-06-14 02:52:16 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:16 - geoPipeline - INFO - Moved AnnualCrop_2759.jpg to processed directory.
+2025-06-14 02:52:16 - geoPipeline - INFO - Inferred AnnualCrop_2759.jpg → AnnualCrop (conf=1.00)
+2025-06-14 02:52:19 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/River/River_838.jpg
+2025-06-14 02:52:19 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:19 - geoPipeline - INFO - Moved River_838.jpg to processed directory.
+2025-06-14 02:52:19 - geoPipeline - INFO - Inferred River_838.jpg → River (conf=0.77)
+2025-06-14 02:52:22 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Pasture/Pasture_623.jpg
+2025-06-14 02:52:22 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:22 - geoPipeline - INFO - Moved Pasture_623.jpg to processed directory.
+2025-06-14 02:52:22 - geoPipeline - INFO - Inferred Pasture_623.jpg → Forest (conf=1.00)
+2025-06-14 02:52:25 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_1259.jpg
+2025-06-14 02:52:25 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:25 - geoPipeline - INFO - Moved PermanentCrop_1259.jpg to processed directory.
+2025-06-14 02:52:25 - geoPipeline - INFO - Inferred PermanentCrop_1259.jpg → PermanentCrop (conf=0.97)
+2025-06-14 02:52:28 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/Highway/Highway_2317.jpg
+2025-06-14 02:52:28 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:28 - geoPipeline - INFO - Moved Highway_2317.jpg to processed directory.
+2025-06-14 02:52:28 - geoPipeline - INFO - Inferred Highway_2317.jpg → Highway (conf=1.00)
+2025-06-14 02:52:31 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/PermanentCrop/PermanentCrop_838.jpg
+2025-06-14 02:52:31 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:31 - geoPipeline - INFO - Moved PermanentCrop_838.jpg to processed directory.
+2025-06-14 02:52:31 - geoPipeline - INFO - Inferred PermanentCrop_838.jpg → PermanentCrop (conf=1.00)
+2025-06-14 02:52:34 - geoPipeline - INFO - [Injector] Injected Pasture/Pasture_253.jpg -> data/raw/SeaLake/SeaLake_2881.jpg
+2025-06-14 02:52:34 - geoPipeline - INFO - [Injector] Waiting 3.0s before injecting Pasture/Pasture_253.jpg
+2025-06-14 02:52:34 - geoPipeline - INFO - Moved SeaLake_2881.jpg to processed directory.
+2025-06-14 02:52:34 - geoPipeline - INFO - Inferred SeaLake_2881.jpg → SeaLake (conf=0.97)
